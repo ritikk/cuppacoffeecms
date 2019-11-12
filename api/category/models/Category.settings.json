@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "categories",
+  "info": {
+    "name": "category",
+    "description": "A category of related products"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "store": {
+      "model": "store",
+      "via": "categories"
+    },
+    "products": {
+      "collection": "product",
+      "via": "categories"
+    }
+  }
+}
