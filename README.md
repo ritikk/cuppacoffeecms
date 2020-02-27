@@ -1,3 +1,3 @@
-# Strapi application
+# Backend Strapi application for CuppaCoffee 
 
-A quick description of your strapi application
+CuppaCoffee is an online ordering platform for local coffee shops.
